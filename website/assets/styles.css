@@ -22,7 +22,6 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outli
 .wrap { width: min(1120px, calc(100% - 64px)); margin-inline: auto; }
 .skip { position: absolute; top: -100px; left: 24px; z-index: 5; padding: 10px 20px; background: var(--accent); color: var(--canvas); }
 .skip:focus { top: 12px; }
-.review-banner { margin: 0; padding: 9px 24px; text-align: center; background: #252315; color: var(--warning); font-size: .75rem; letter-spacing: .02em; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 106px; border-bottom: 1px solid var(--line); }
 .brand { display: inline-flex; align-items: center; gap: 11px; font-size: 1.4rem; font-weight: 650; letter-spacing: -.06em; text-decoration: none; }
 .brand img { width: 34px; height: 34px; }
@@ -85,8 +84,7 @@ p { margin-bottom: 20px; }
 .callout { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 0 16px 16px 0; padding: 22px 24px; margin-block: 24px; }
 .callout p:last-child { margin: 0; }
 .callout h3 { letter-spacing: -.025em; }
-.placeholder { display: inline-block; color: var(--warning); overflow-wrap: anywhere; font-size: .9rem; }
-.tag { display: inline-block; border: 1px solid #5a5034; border-radius: 100px; padding: 2px 9px; color: var(--warning); font-size: .65rem; margin-bottom: 12px; }
+.contact-email { display: inline-block; overflow-wrap: anywhere; font-size: .9rem; }
 .faq { border-bottom: 1px solid var(--line); }
 details { border-top: 1px solid var(--line); padding-block: 21px; }
 summary { cursor: pointer; font-size: 1rem; font-weight: 500; padding-right: 12px; }
@@ -102,7 +100,6 @@ details p, details ol { margin-top: 18px; margin-bottom: 0; }
 }
 @media (max-width: 600px) {
   .wrap { width: calc(100% - 40px); }
-  .review-banner { padding-inline: 18px; font-size: .65rem; }
   .site-header { min-height: 90px; gap: 16px; }
   .brand { font-size: 1.2rem; gap: 8px; }
   .brand img { width: 29px; height: 29px; }

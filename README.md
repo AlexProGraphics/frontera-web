@@ -26,14 +26,16 @@ JavaScript ni recursos remotos y admite el prefijo de proyecto de GitHub Pages.
 
 ## Publicación y App Store Connect son pasos distintos
 
-El titular ha autorizado una web pública independiente. La publicación puede
-servir para revisar su contenido, pero **no significa que esté lista para
-App Review** mientras conserve el correo de ejemplo, el aviso de preparación
-o cualquier requisito pendiente de la matriz de Apple.
+El titular ha autorizado una web pública independiente y ha aprobado
+**amdelamorena@icloud.com** como contacto público de soporte y privacidad.
+Las páginas de privacidad y soporte incluyen un enlace de correo y ya no
+muestran avisos de preparación ni contactos de ejemplo. Para cambiar la
+dirección en el futuro, hace falta la aprobación del titular; no extraer
+direcciones privadas de metadatos de Git o del proyecto.
 
-`soporte@frontera.example` es un marcador visible y no operativo. No se debe
-sustituir por una dirección privada encontrada en metadatos de Git o del proyecto.
-Solo el titular puede aprobar qué dirección se hace pública.
+La publicación y un contacto real **no certifican que la app esté lista para
+App Review**: revisar los requisitos pendientes de la matriz de Apple contra
+el binario final.
 
 Antes de enviar la app:
 
